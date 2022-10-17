@@ -3,13 +3,13 @@
 Console.Clear();
 
 Console.Write("Enter the first number: ");
-int NumA = int.Parse(Console.ReadLine());
+int NumA = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Enter the second number: ");
-int NumB = int.Parse(Console.ReadLine());
+int NumB = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Enter the third number: ");
-int NumC = int.Parse(Console.ReadLine());
+int NumC = Convert.ToInt32(Console.ReadLine());
 
 int max = NumA; //присвоение максимального числа по умолчанию
 
