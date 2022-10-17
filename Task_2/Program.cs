@@ -4,11 +4,11 @@
 Console.Clear();
 
 Console.Write("Enter the first number: ");
-int NumA = int.Parse(Console.ReadLine( ));
+int NumA = int.Parse(Console.ReadLine());
 
 
 Console.Write("Enter the second number: ");
-int NumB = int.Parse(Console.ReadLine( ));
+int NumB = int.Parse(Console.ReadLine());
 
 
 // Вывод собощения когда числа равны
